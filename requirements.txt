@@ -2,6 +2,7 @@ numpy<3.0.0
 numba
 torch>=2.1.0
 torchaudio
+requests
 tqdm
 vector_quantize_pytorch
 transformers>=4.41.1

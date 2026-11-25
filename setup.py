@@ -23,6 +23,7 @@ setup(
         "numpy<3.0.0",
         "pybase16384",
         "torch>=2.1.0",
+        "requests",
         "torchaudio",
         "tqdm",
         "transformers>=4.41.1",
