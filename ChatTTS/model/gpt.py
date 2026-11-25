@@ -224,6 +224,7 @@ class GPT(nn.Module):
             # If we are about to go beyond the maximum cache length, we need to crop the input attention mask.
             if (
                 max_cache_length is not None
+                and max_cache_length > 0
                 and attention_mask is not None
                 and cache_length + input_ids.shape[1] > max_cache_length
             ):
